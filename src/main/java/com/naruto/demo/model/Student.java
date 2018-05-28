@@ -12,7 +12,7 @@ public class Student {
 	@Id 
 	@Column(name="id")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int id;
+	private int id1;
 	
 	@Column(name="firstname")
 	private String firstname;
@@ -29,18 +29,18 @@ public class Student {
 
 	public Student(int id, String firstname, String lastname, int age) {
 		super();
-		this.id = id;
+		this.id1 = id;
 		this.firstname = firstname;
 		this.lastname = lastname;
 		this.age = age;
 	}
 
 	public int getId() {
-		return id;
+		return id1;
 	}
 
 	public void setId(int id) {
-		this.id = id;
+		this.id1 = id;
 	}
 
 	public String getFirstname() {
@@ -69,7 +69,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", age=" + age + "]";
+		return "Student [id=" + id1 + ", firstname=" + firstname + ", lastname=" + lastname + ", age=" + age + "]";
 	}
 	
 	
