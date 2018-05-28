@@ -1,0 +1,6 @@
+com\naruto\demo\dao\StudentDaoImp.class
+com\naruto\demo\service\StudentServiceImp.class
+com\naruto\demo\controller\StudentController.class
+com\naruto\demo\service\StudentService.class
+com\naruto\demo\model\Student.class
+com\naruto\demo\dao\StudentDao.class
